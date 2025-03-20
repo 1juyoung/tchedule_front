@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+      @apply lg:px-[15rem] md:px-16;
+    }
+  }
